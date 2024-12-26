@@ -1,6 +1,8 @@
 public class Main {
+    Card[] deck = new Card[27];
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        MyFrame mf = new MyFrame();
     }
+
 }
