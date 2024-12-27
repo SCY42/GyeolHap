@@ -139,7 +139,7 @@ public class BoardPanel extends JPanel {
         JFrame frame = new JFrame("결! 합!");
         BoardPanel boardPanel = new BoardPanel(new Board());
 
-        boardPanel.getBoard().printAnswers(boardPanel.getBoard().findAnswers());
+//        boardPanel.getBoard().printAnswers(boardPanel.getBoard().findAnswers());
 
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
